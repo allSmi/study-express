@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// 匹配访问的路由,
+// 匹配访问的路由,从上到下一次匹配
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/api', apiRouter)
