@@ -1,5 +1,5 @@
 # study-express
-note:
-initial a new express project
-npm install express express-generator -g
-express <project-name>
+note:<br>
+initial a new express project<br>
+npm install express express-generator -g<br>
+express <project-name><br>
